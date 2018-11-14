@@ -2,7 +2,7 @@
     "name": "next-compose-initial-props",
     "description": "Compose asynchronous getInitialProps functions for easy reusability across NextJS pages.",
     "author": "Theo Messenger-Jones <theomjones@gmail.com>",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
     "files": [
@@ -14,14 +14,12 @@
         "babel-core": "^6.26.3",
         "babel-jest": "^23.6.0",
         "jest": "^23.6.0",
-        "rollup": "^0.67.1"
+        "rollup": "^0.67.1",
+        "babel-preset-env": "^1.7.0"
     },
     "scripts": {
         "test": "jest",
         "build": "rollup -c",
         "prepublish": "rollup -c"
-    },
-    "dependencies": {
-        "babel-preset-env": "^1.7.0"
     }
 }
