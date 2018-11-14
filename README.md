@@ -1,5 +1,7 @@
 # next-compose-initial-props
 
+![travis ci image](https://api.travis-ci.com/theomjones/next-compose-initial-props.svg?branch=master)
+
 Compose asynchronous `getInitialProps()` functions for reusability in NextJS pages.
 
 ## Install
